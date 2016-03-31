@@ -30,16 +30,11 @@ def partition_first(array, leftend, rightend):
 def quick_sort1(array, leftindex, rightindex):
     global firstcomparison
     if leftindex < rightindex:
-        
         newpivotindex = partition_first(array, leftindex, rightindex)
-        
         firstcomparison += (rightindex - leftindex - 1)
-        
         quick_sort1(array, leftindex, newpivotindex) 
-        
         quick_sort1(array, newpivotindex + 1, rightindex)
-        
-
+    
 #Question 2
 #Pivot == Ultimo Elemento
 def partition_last(array, leftend, rightend):
