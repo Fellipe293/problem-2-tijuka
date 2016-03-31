@@ -1,7 +1,5 @@
-#+Title: Relatorio - Problem 1
+#+Title: Relatorio - Problem 2
 
 Grupo: Rafael
        Fellipe
-       Isabella
-       Raul
 
