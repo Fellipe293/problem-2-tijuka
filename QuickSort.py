@@ -8,6 +8,7 @@ for line in f:
     intarray.append(int(line))
 f.close()
 
+#Question 1
 #Pivot == Primeiro Elemento
 
 def partition_first(array, leftend, rightend):
@@ -39,6 +40,7 @@ def quick_sort1(array, leftindex, rightindex):
         quick_sort1(array, newpivotindex + 1, rightindex)
         
 
+#Question 2
 #Pivot == Ultimo Elemento
 def partition_last(array, leftend, rightend):
     
@@ -60,6 +62,7 @@ def partition_last(array, leftend, rightend):
     array[i-1] = leftendval
     return i - 1 
 
+
 #Quick Sort Com o Pivot == Ultimo Elemento
 def quicksort_last(array, leftindex, rightindex):
     global lastcomparison
@@ -74,7 +77,7 @@ def quicksort_last(array, leftindex, rightindex):
 
 
 
-
+#Question 3
 #Pivot == Mediana
 def median(a, b, c):
     if ( a - b) * (c - a) >= 0:
