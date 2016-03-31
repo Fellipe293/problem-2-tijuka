@@ -3,4 +3,4 @@
 Grupo: Rafael
        Fellipe
 
-As questoes 1 e 2, que utilizam como pivots o 1 elemento e o ultimo,respectivamente, foram mais faceis de serem implementadas, devido principalmente a maior facilidade de suas "particoes" da lista com os numeros do "QuickSort.txt". Porem a Questao 3 que involve que o pivot seja a mediana foi mais dificil...  (Continuar Depois)
+As questoes 1 e 2, que utilizam como pivots o 1 elemento e o ultimo,respectivamente, foram mais faceis de serem implementadas, devido principalmente a maior facilidade de suas "particoes" da lista com os numeros do "QuickSort.txt". Porem a Questao 3 que involve que o pivot seja a mediana foi mais dificil...  (Continuar Depois )
